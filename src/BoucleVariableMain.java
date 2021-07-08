@@ -1,16 +1,22 @@
 import java.util.Random;
 
 public class BoucleVariableMain {
+
+    public static void exo1() {
+
+    }
     public static void main(String args[]) {
         // En Java, il existe trois types de boucle :
         // La boucle while
         // Signifie : Tant que i < 10
         int age = 0;
+        BoucleVariableMain.exo1();
         while(age < 10) {
             // Ici, on peut concaténer des chaines de caractères avec l'opérateur plus, ici :
             // chaine de caractère "Age " + la valeur de la variable age.
             System.out.println("Age " +  age);
             age = age + 1;
+
         }
         // La boucle For
         // Pour la variable de type "entier" nommé "i" = 0 ; <TANT QUE> condition ; <OPERATION A EFFECTUÉ CHAQUE TOUR DE BOUCLE>
@@ -24,6 +30,7 @@ public class BoucleVariableMain {
         Random random = new Random();
         int nombreAleatoire = random.nextInt();
         System.out.println(nombreAleatoire);
+
     }
 }
 
@@ -49,5 +56,7 @@ public class BoucleVariableMain {
         1*2 = 2 ...
     8. (Recherche) Prendre une chaine de caractère en entrée utilisateur et l'afficher "retourné" :
         Bonjour -> Affiche ruojnoB
+
+    9. (Recherche) Écrire une fonction qui inverse un nombre sans utiliser les méthodes String
  */
 

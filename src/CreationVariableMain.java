@@ -5,9 +5,9 @@ public class CreationVariableMain {
         // En java, le ";" est toujours nécessaire à la fin de chaque instruction
         // Création de variable
         // Format :: <type> <nom> = <valeur>
-        String nomDeLaVariable = "Bonjour";
+        String bonjourString = "Bonjour";
         // On affiche le contenu de la variable "nom de la variable" avec notre fonction System.out.println()
-        System.out.println(nomDeLaVariable);
+        System.out.println(bonjourString);
 
         // Création d'une variable de type "entier" (int) => Un nombre
         int unNombre = 12;
