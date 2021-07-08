@@ -1,10 +1,9 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class BoucleVariableMain {
 
-    public static void exo1() {
 
-    }
     public static void main(String args[]) {
         // En Java, il existe trois types de boucle :
         // La boucle while
@@ -30,6 +29,11 @@ public class BoucleVariableMain {
         Random random = new Random();
         int nombreAleatoire = random.nextInt();
         System.out.println(nombreAleatoire);
+        Scanner sc = new Scanner(System.in);
+        char c = (char) sc.nextByte();
+    }
+
+    public static void exo1() {
 
     }
 }
