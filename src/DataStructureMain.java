@@ -8,11 +8,12 @@ public class DataStructureMain {
         // Un Set est une liste avec des élements unique
         Set<String> stringSet = new HashSet<>();
         stringSet.add("set");
-
         Map<Integer, String> myMap = new HashMap<Integer, String>();
         myMap.put(1, "Joe");
         myMap.put(2, "Donald");
         myMap.put(3, "Barack");
+        String obama = myMap.get(3);
+        System.out.println(obama);
     }
 
     private static void LaListe() {

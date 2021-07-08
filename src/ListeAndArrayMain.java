@@ -1,3 +1,5 @@
+import java.lang.reflect.Method;
+
 public class ListeAndArrayMain {
     public static void main(String args[]) {
         // Il existe un autre type de données : Les tableaux
@@ -28,7 +30,7 @@ public class ListeAndArrayMain {
         // Un tableau peut avoir n'importe quelle type :
         // Ici un tableau de chaine de caractère
         String textes[] = new String[]{"Bonjour", "Hello", "Guten Tag"};
-
+        String tableau2[][] = new String[10][10];
     }
 }
 

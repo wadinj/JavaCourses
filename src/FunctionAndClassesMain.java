@@ -3,23 +3,22 @@ public class FunctionAndClassesMain {
         // Les fonctions permettent de "ranger" son code dans des "boites"
         // On les écrit :  <visiblité> <static(optional)>  <type de retour> <nom>(args)
         //  Imaginons :
-        boolean estMajeur = estMajeur(19);
-        System.out.println("Est majeur : " + estMajeur);
-
-
+        System.out.println("Est majeur : " + estMajeur(19));
 
         // On peut maintenant utiliser notre voiture
-        Voiture tesla = new Voiture();
-        System.out.println(tesla);
+        Voiture renault = new Voiture("Renault", "Rouge", 2);
+        System.out.println(renault.toString());
     }
 
+
     public static boolean estMajeur(int age) {
-        if(age > 17) {
-            return true;
-        } else {
-            return false;
-        }
+        return age > 17;
     }
+}
+
+class Roue {
+    private int taille;
+    private String marqueJante;
 }
 // On créé une classe voiture
 class Voiture {
@@ -27,6 +26,18 @@ class Voiture {
     private String marque;
     private String couleur;
     private int age;
+    private Roue avantGauche;
+    private int positionX;
+    private int positionY;
+
+    void tournerAGauche() {
+        positionY = positionY - 1;
+    }
+
+    public void setCouleur(String couleur) {
+        this.couleur = couleur;
+    }
+
 
     // Le constructeur est une méthode spéciale qui permet d'initialiser un objet avec le mot-clé "new"
     public Voiture(String marque, String couleur, int age) {
@@ -36,6 +47,7 @@ class Voiture {
         this.couleur = couleur;
         this.age = age;
     }
+
     // Surcharge du constructeur
     public Voiture() {
         this.marque = "Tesla";
@@ -51,5 +63,13 @@ class Voiture {
                 ", couleur='" + couleur + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    public String getMarque() {
+        return marque;
+    }
+
+    public void setMarque(String marque) {
+        this.marque = marque;
     }
 }
