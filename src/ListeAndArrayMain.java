@@ -36,5 +36,5 @@ public class ListeAndArrayMain {
         // Exemple: 1 3 5 7 9
 // 2. Déclarer un tableau d'entiers avec 1, 3, 5, 7, 9 et afficher l'entier le plus grand
 // 3. Écrire un programme qui inverse un tableau et l'affiche
-// (recherche/bonus) Écrire un programme qui tri un tableau d'entiers dans l'ordre croissant
+// 4. Écrire un programme qui tri un tableau d'entiers dans l'ordre croissant
 
