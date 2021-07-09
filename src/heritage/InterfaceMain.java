@@ -10,14 +10,11 @@ public class InterfaceMain {
         // On déclare une variable "chien" de type Animal ayant comme valeur une instance de type Chien
         Animal chien = new Chien(12);
         // On déclare une variable "animal" de type Animal ayant comme valeur une instance de type Animal
-        Animal animal = new Animal(12);
         // Un chat
         chat.cri();
         // Un chat
         chien.cri();
         chien.faireUnPas();
         // Un animal
-        animal.cri();
-        animal.faireUnPas();
     }
 }

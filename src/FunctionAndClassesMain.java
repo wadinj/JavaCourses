@@ -3,6 +3,10 @@ public class FunctionAndClassesMain {
     //    monProgramme();
         int laSomme = laSommeDeAndre(1, 2);
         System.out.println(laSomme);
+        Voiture v = new Voiture("Renault", "Rouge", 10);
+
+        System.out.println(v.toString());
+
     }
 
 
@@ -30,6 +34,7 @@ class Roue {
     private int taille;
     private String marqueJante;
 }
+
 // On créé une classe voiture
 class Voiture {
     // On déclare ses attributs par principe en privée.
@@ -53,7 +58,7 @@ class Voiture {
     public Voiture(String marque, String couleur, int age) {
         // This permet de faire référence à la classe dans laquel on se trouve
         // this.marque != marque ici.
-        this.marque = marque;
+
         this.couleur = couleur;
         this.age = age;
     }
@@ -66,7 +71,7 @@ class Voiture {
     }
 
     // La méthode toString permet d'afficher notre classe de façon élégante.
-    @Override
+
     public String toString() {
         return "Voiture{" +
                 "marque='" + marque + '\'' +
