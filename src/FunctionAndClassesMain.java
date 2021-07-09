@@ -1,5 +1,15 @@
 public class FunctionAndClassesMain {
     public static void main(String args[]) {
+    //    monProgramme();
+        int laSomme = laSommeDeAndre(1, 2);
+        System.out.println(laSomme);
+    }
+
+
+    private static int laSommeDeAndre(int nouveauEntier, int entier2) {
+        return nouveauEntier + entier2;
+    }
+    private static void monProgramme() {
         // Les fonctions permettent de "ranger" son code dans des "boites"
         // On les écrit :  <visiblité> <static(optional)>  <type de retour> <nom>(args)
         //  Imaginons :

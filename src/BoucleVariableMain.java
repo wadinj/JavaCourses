@@ -1,5 +1,9 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.stream.Collectors;
+
 public class BoucleVariableMain {
 
 
@@ -8,7 +12,6 @@ public class BoucleVariableMain {
         // La boucle while
         // Signifie : Tant que i < 10
         int age = 0;
-        BoucleVariableMain.exo1();
         while(age < 10) {
             // Ici, on peut concaténer des chaines de caractères avec l'opérateur plus, ici :
             // chaine de caractère "Age " + la valeur de la variable age.
@@ -28,8 +31,26 @@ public class BoucleVariableMain {
         Random random = new Random();
         int nombreAleatoire = random.nextInt();
         System.out.println(nombreAleatoire);
-        Scanner sc = new Scanner(System.in);
-        char c = (char) sc.nextByte();
+        // i = i + 1 -> i++
+        for(int i = 1 ; i < 101 ; i = i + 2) {
+            System.out.println(i);
+        }
+
+/*        Scanner scanner = new Scanner(System.in);
+        String lettre = scanner.nextLine();
+        int nombre = scanner.nextInt();
+        for(int i = 1 ; i <= nombre ; i ++) {
+            System.out.println(lettre);
+        }*/
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Un nombre : ");
+        int nombre = scanner.nextInt();
+        int somme = 0;
+        for(int i = 1 ; i < nombre ; i++) {
+            somme = somme + i;
+        }
+
+
     }
 
     public static void exo1() {

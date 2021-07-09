@@ -5,17 +5,17 @@ public class CreationVariableMain {
         // En java, le ";" est toujours nécessaire à la fin de chaque instruction
         // Création de variable
         // Format :: <type> <nom> = <valeur>
-        String bonjourString = "Bonjour";
+        String Andre = "Bonjour";
         // On affiche le contenu de la variable "nom de la variable" avec notre fonction System.out.println()
-        System.out.println(bonjourString);
+        System.out.println("Bonjour Guillaume");
 
         // Création d'une variable de type "entier" (int) => Un nombre
-        int unNombre = 12;
+        int unNombre = 2;
         // On affiche notre variable de type "entier" (int)
         System.out.println(unNombre);
 
         // Il existe d'autres types : double (un nombre à virgule), char (un caractère) & bien d'autres.
-        double unNombreAVirgule = 12.2;
+        double unNombreAVirgule = 12;
         System.out.println(unNombreAVirgule);
 
         // On peut faire toute les opérations mathématiques sur ces variables :
@@ -29,6 +29,6 @@ public class CreationVariableMain {
         // Cette opération est bloquante. Le programme va suspendre l'execution tant que l'utilisateur n'a pas tapé sur "ENTRER"
         String ceQueLutilisateurATape = scanner.nextLine();
         System.out.println("Vous avez tapé :");
-        System.out.println(ceQueLutilisateurATape);
+        System.out.println("ceQueLutilisateurATape");
     }
 }

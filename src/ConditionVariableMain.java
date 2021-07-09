@@ -1,9 +1,12 @@
+import java.util.Scanner;
+
 public class ConditionVariableMain {
     public static void main(String args[]) {
         // En programmation, nous avons deux principales structures de contrôle :
         // La condition & la boucle
         // Je déclare une variable de type "entier" nommée "age" égale à 10
-        int age = 10;
+        Scanner scanner = new Scanner(System.in);
+        int age = scanner.nextInt();
         // Si ma variable age est supérieur à 17, j'affiche "il est majeur"
         if(age > 17) {
             System.out.println("Il est majeur");
@@ -39,11 +42,12 @@ public class ConditionVariableMain {
             System.out.println("Retraité mais pas centenaire");
         }
         // On peut aussi combiner autant d'opérateur que l'on souhaite
-        if(age == 60 || age == 30 || age == 90) {
+        if(age != 60 || age == 30 || age == 90) {
             System.out.println("Age est multiple de 30 :)");
         }
         // Pour comparer des variables de type int, on a :
         /*
+            * != : Différent
             * == : Égalité
             * > : Supérieur
             * < : Inférieur
