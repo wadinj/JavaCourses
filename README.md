@@ -6,3 +6,5 @@ Intellij raccourci : https://resources.jetbrains.com/storage/products/intellij-i
 bonjour de l'interface de GitHub
 
 Bonjour
+
+Exo objet = https://docs.google.com/document/d/1jUrMJpRr4otQseGk37NIrGhij9zwr54ezFkWvBLJnpQ/edit?usp=sharing
