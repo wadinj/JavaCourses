@@ -5,10 +5,12 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class FileManipulationMain {
-    public static void main(String[] args) {
-        createFile();
-
-        writeTo("test.txt", "J'écris dans un fichier c'est génial");
+    public static void main(String[] args) throws IOException {
+        //createFile();
+        File f = new File("test.txt");
+        f.exists()
+        f.createNewFile();
+        //writeTo("test.txt", "J'écris dans un fichier c'est génial");
     }
 
     private static void createFile() {
@@ -53,3 +55,9 @@ public class FileManipulationMain {
         }
     }
 }
+
+/*
+Exercice:
+1. Créer un fichier "hello.txt" s'il n'existe pas & écrire "Hello World" dedans
+2. Créer une fonction ajouterEntete(File file, String titre) qui ajoute "la date - le titre" à la premiere ligne du fichier
+ */
