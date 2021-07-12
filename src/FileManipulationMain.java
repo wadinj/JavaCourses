@@ -8,7 +8,7 @@ public class FileManipulationMain {
     public static void main(String[] args) throws IOException {
         //createFile();
         File f = new File("test.txt");
-        f.exists()
+        f.exists();
         f.createNewFile();
         //writeTo("test.txt", "J'écris dans un fichier c'est génial");
     }

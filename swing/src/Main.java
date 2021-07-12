@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class Main {
+public class Main extends javax.swing.JFrame {
+
+    public static void main(String[] args) {
+        new IMCFenetre();
+    }
+
 }
