@@ -8,3 +8,5 @@ bonjour de l'interface de GitHub
 Bonjour
 
 Exo objet = https://docs.google.com/document/d/1jUrMJpRr4otQseGk37NIrGhij9zwr54ezFkWvBLJnpQ/edit?usp=sharing
+
+Controle : https://docs.google.com/document/d/1RhuIZsRUGvJ7dkWwZ6PIOWU-qK1jLUD1l36xi1nbk1U/edit?usp=sharing
