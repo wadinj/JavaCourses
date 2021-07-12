@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class FileManipulationMain {
     public static void main(String[] args) {
         createFile();
+
         writeTo("test.txt", "J'écris dans un fichier c'est génial");
     }
 
