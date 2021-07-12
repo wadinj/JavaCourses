@@ -53,6 +53,7 @@ public class FileManipulationMain {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
+        Scanner sc = new Scanner(System.in);
     }
 }
 
